@@ -13,7 +13,7 @@
   }
   @media (max-width: 500px) {
     .wide-text-card {
-        text-align: center;
+        text-align: left;
       margin: 1rem;
       padding: 2rem;
       box-sizing: content-box;

@@ -34,7 +34,11 @@ export const textdata = [
   "'This led to the digital transformation and growth of Orion to train and upskill them across core and soft skills. At Orion, we are charging towards forging the next generation of nation-builders for India.'",
 ];
 export const textdata2 = [
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "The Orion German Nursing Program is an incredible opportunity for 4 year BSc / GNW / MSc educated individuals looking to build a nursing career in Germany.", 
+"This program supports and trains eligible candidates in B1 and B2 Goethe Exams as well as trains them in German culture and other immersions for an easier career start in Germany.", 
+"All successful candidates will be able to build successful nursing careers in Germany with top salary, benefits including social security, insurance and more.", 
+"If you are interested candidate, fill the form on this micro site and our counsellors will get back to you with complete details.",
+"Come, build an incredible nursing career in Germany."
 ];
 
 export const programDetailsData = [
@@ -155,5 +159,3 @@ export const programFeesData = [
     ],
   },
 ];
-
-export const hii = 77

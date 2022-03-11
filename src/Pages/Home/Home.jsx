@@ -1,6 +1,6 @@
 import "./home.css";
 import {ButtonKnowMoreHero, NumberStatsDisplay, TextComponent, TextCardWithList, Form} from '../../Components';
-import { numbersData, textdata, textdata2, programDetailsData, programFeesData, hii } from "./data";
+import { numbersData, textdata, textdata2, programDetailsData, programFeesData } from "./data";
 
 
 const Home = () => {
