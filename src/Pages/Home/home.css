@@ -8,6 +8,9 @@
         height: 35vh;
     }   
 }
+.main-href{
+  text-decoration: none;
+}
 
 .home {
     width: 100%;

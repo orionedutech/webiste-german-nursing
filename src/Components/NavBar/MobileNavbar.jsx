@@ -50,9 +50,9 @@ import {aboutUs, ourPrograms, ourServices} from './data'
           >
             About Us
             {aboutUsSubMenuDisplay ? (
-              <i class="fas fa-chevron-up"></i>
+              <i className="fas fa-chevron-up"></i>
             ) : (
-              <i class="fas fa-chevron-down"></i>
+              <i className="fas fa-chevron-down"></i>
             )}
           </li>
           <SubMenu
@@ -68,9 +68,9 @@ import {aboutUs, ourPrograms, ourServices} from './data'
           >
             Our Services
             {ourServicesSubMenuDisplay ? (
-              <i class="fas fa-chevron-up"></i>
+              <i className="fas fa-chevron-up"></i>
             ) : (
-              <i class="fas fa-chevron-down"></i>
+              <i className="fas fa-chevron-down"></i>
             )}
           </li>
           <SubMenu
@@ -86,9 +86,9 @@ import {aboutUs, ourPrograms, ourServices} from './data'
           >
             Our Programs
             {ourProgramsSubMenuDisplay ? (
-              <i class="fas fa-chevron-up"></i>
+              <i className="fas fa-chevron-up"></i>
             ) : (
-              <i class="fas fa-chevron-down"></i>
+              <i className="fas fa-chevron-down"></i>
             )}
           </li>
           <SubMenu
@@ -129,12 +129,13 @@ const SubMenu = ({
 }) => {
   return (
     <div
+    
       className={`mob-sub-menu ${subMenuDisplay ? "mob-active" : null}`}
       onClick={handleReset}
     >
       {data.map((item) => {
         return item.wlink ? (
-          <a
+          <a key={item.wlink}
             onClick={handleMobileMenuActive}
             rel="noreferrer"
             href={item.wlink}
@@ -143,7 +144,7 @@ const SubMenu = ({
             {item.title}
           </a>
         ) : (
-          <Link
+          <Link key={item.wlink}
             onClick={handleMobileMenuActive}
             to={item.link}
             className="mob-sub-menu-item"

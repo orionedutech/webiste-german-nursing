@@ -55,21 +55,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-box box-2">
-          <div className="sub-content-box">
-            <h5>About Us</h5>
-            <a rel="noreferrer" href="https://orionedutech.in/about-us">
-              {" "}
-              <p>Company Profile</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/about-us/awards-and-recognition"
-            >
-              {" "}
-              <p>Award & Recognition</p>
-            </a>
-          </div>
-          <div className="sub-content-box">
+        <div className="sub-content-box">
             <h5>Our Services</h5>
             <Link to="/">
               {" "}
@@ -94,6 +80,23 @@ const Footer = () => {
               <p>International Business</p>
             </a>
           </div>
+          
+          <div className="sub-content-box">
+            <h5>About Us</h5>
+            <a rel="noreferrer" href="https://orionedutech.in/about-us">
+              {" "}
+              <p>Company Profile</p>
+            </a>
+            <a
+              rel="noreferrer"
+              href="https://orionedutech.in/about-us/awards-and-recognition"
+            >
+              {" "}
+              <p>Award & Recognition</p>
+            </a>
+          </div>
+          
+          
         </div>
         <div className="footer-box box-3">
           <div className="sub-content-box">
@@ -118,6 +121,13 @@ const Footer = () => {
             >
               {" "}
               <p>International Schooling</p>
+            </a>
+            <a
+              rel="noreferrer"
+              href="/"
+            >
+              {" "}
+              <p>German Nursing</p>
             </a>
           </div>
           <div className="sub-content-box">

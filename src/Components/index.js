@@ -15,6 +15,10 @@ import NumberStatsDisplay from './NumberStatsDisplay/NumberStatsDisplay';
 
 import TextComponent from "./Text Component/TextComponent";
 
+import TextCardWithList from "./TextCardWithList/TextCardWithList";
+
+import Form from "./Form/Form";
+
 
 
 export { MobileNavbar, NavBar, Footer };
@@ -31,3 +35,7 @@ export {
 export {NumberStatsDisplay}
 
 export {TextComponent}
+
+export {TextCardWithList}
+
+export {Form}

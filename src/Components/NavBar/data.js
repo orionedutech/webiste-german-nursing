@@ -22,6 +22,10 @@ export const aboutUs = [
       title: "International Schooling",
       wlink: "https://orionedutech.in/international-schooling",
     },
+    {
+      title: "German Nursing",
+      link: "/",
+    },
   ];
   export const ourServices = [
     {

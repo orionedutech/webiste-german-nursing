@@ -27,11 +27,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-ul{
     list-style: none;
 }
+
+/* ul{
+    
+} */
 .mobile-nav-items-list li{
     font-size: 1.3rem;
     font-weight: 500;
