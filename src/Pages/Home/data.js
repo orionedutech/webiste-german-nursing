@@ -155,3 +155,5 @@ export const programFeesData = [
     ],
   },
 ];
+
+export const hii = 77
