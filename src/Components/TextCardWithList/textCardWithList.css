@@ -1,0 +1,31 @@
+.wide-text-card {
+    box-shadow: #00000040 0px 8px 25px;
+    border-radius: 20px;
+    padding: 3rem;
+    box-sizing: border-box;
+  
+  }
+  .cont-sub-com-prof {
+    margin-bottom: 4rem;
+  }
+  .wc-title {
+    margin: 1rem 0;
+  }
+  @media (max-width: 500px) {
+    .wide-text-card {
+        text-align: center;
+      margin: 1rem;
+      padding: 2rem;
+      box-sizing: content-box;
+      font-size: 1rem !important;
+    }
+  }
+
+  .innerUlList{
+      margin-left: 1rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  .wc-title-singleCard{
+      margin: 2rem 0 0.5rem 0
+  }
