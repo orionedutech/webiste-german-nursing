@@ -1,0 +1,17 @@
+.card-three-sec{
+    width: 21rem;
+}
+.card-three-sec img{
+    height: 13rem;
+}
+.sub-card-three-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 3rem;
+}
+.sub-card-three-sec p{
+    margin-left: -4rem;
+    margin-bottom: 0.5rem;
+}

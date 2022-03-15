@@ -1,0 +1,32 @@
+.somewh-img {
+  width: 30rem;
+}
+.card-holder-img-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+.con-t1 {
+  padding: 1.8rem 0 1rem 1.8rem;
+}
+.con-t2 {
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+@media (max-width: 500px) {
+  .somewh-img {
+    width: 20rem;
+  }
+  .con-t1,
+  .con-t2 {
+    padding: 1rem;
+  }
+  .card-holder-img-section {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    display: flex;
+    width: 75%;
+    text-align: center;
+    /* background-color: red; */
+  }
+}

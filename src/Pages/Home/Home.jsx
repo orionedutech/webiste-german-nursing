@@ -1,6 +1,6 @@
 import "./home.css";
-import {ButtonKnowMoreHero, NumberStatsDisplay, TextComponent, TextCardWithList, Form} from '../../Components';
-import { numbersData, textdata, textdata2, programDetailsData, programFeesData } from "./data";
+import {ButtonKnowMoreHero, NumberStatsDisplay, TextComponent, TextCardWithList, Form, SectionWithPhoto, ThreeCardSection} from '../../Components';
+import { numbersData, textdata,  programDetailsData, programFeesData, dataAboutNursingProogram } from "./data";
 
 
 const Home = () => {
@@ -18,8 +18,10 @@ const Home = () => {
         </div>
       </div>
       <NumberStatsDisplay mode={'light'} data={numbersData}/>
-      <TextComponent title={'About Nursing Program in Germany'} mode={'light'} data={textdata2}  />
+      <SectionWithPhoto title={'About Nursing Program in Germany'} data={dataAboutNursingProogram} />
       <TextComponent title={'About Orion'} mode={'dark'} data={textdata} textTitle />
+
+      <ThreeCardSection title={'Eligibility'} data={programDetailsData} />
       <TextCardWithList title={'Program Details'} data1={programDetailsData} />
       <TextCardWithList title={'Program Structure & Fees'} data1={programFeesData} singleCard  />
       <Form title={'Get in Touch'}/>

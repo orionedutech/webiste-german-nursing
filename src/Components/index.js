@@ -19,6 +19,10 @@ import TextCardWithList from "./TextCardWithList/TextCardWithList";
 
 import Form from "./Form/Form";
 
+import SectionWithPhoto from "./SectionWithPhoto/SectionWithPhoto";
+
+import ThreeCardSection from "./3CardSection/3CardSection";
+
 
 
 export { MobileNavbar, NavBar, Footer };
@@ -39,3 +43,7 @@ export {TextComponent}
 export {TextCardWithList}
 
 export {Form}
+
+export {SectionWithPhoto}
+
+export {ThreeCardSection}

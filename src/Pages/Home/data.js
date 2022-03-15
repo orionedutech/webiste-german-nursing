@@ -46,8 +46,9 @@ export const programDetailsData = [
     title: "Eligibility",
     data: [
       {
-        title: "Minimum Qualification – 4 year BSc / GNM / MSc",
-        data: null,
+        title: "Minimum Qualification",
+        data: ['4 year BSc / GNM / MSc'],
+        image:'https://res.cloudinary.com/learnhat/image/upload/v1647332645/orion-new-website/german-nursing-p/eligiblity-section/a_2x_ghgmsj.png',
       },
       {
         title: "Desired experience",
@@ -57,11 +58,12 @@ export const programDetailsData = [
           "ICU Emergency ward",
           "Acute medicine",
         ],
+        image:'https://res.cloudinary.com/learnhat/image/upload/v1647332652/orion-new-website/german-nursing-p/eligiblity-section/b_2x_xd53gz.png',
       },
       {
-        title:
-          "Internal medicine ward Surgery ward ICU Emergency ward Acute medicine",
-        data: null,
+        title:null,
+        data: ['German Language Proficiency (Level B2)'],
+        image:'https://res.cloudinary.com/learnhat/image/upload/v1647332660/orion-new-website/german-nursing-p/eligiblity-section/c_2x_lwg81o.png',
       },
     ],
   },
@@ -159,3 +161,7 @@ export const programFeesData = [
     ],
   },
 ];
+
+export const dataAboutNursingProogram = [
+  "The Orion German Nursing Program is an incredible opportunity for 4 year BSc / GNW / MSc educated individuals looking to build a nursing career in Germany.",  "This program supports and trains eligible candidates in B1 and B2 Goethe Exams as well as trains them in German culture and other immersions for an easier career start in Germany.", "All successful candidates will be able to build successful nursing careers in Germany with top salary, benefits including social security, insurance and more.", "If you are interested candidate, fill the form on this micro site and our counsellors will get back to you with complete details. Come, build an incredible nursing career in Germany."
+]
