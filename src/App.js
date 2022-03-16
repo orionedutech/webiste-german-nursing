@@ -21,6 +21,10 @@ function App() {
   useEffect(() => {
     scrollToTop();
   }, [pathname]);
+
+  
+
+
   return (
     <div className="App">
       <NavBar
