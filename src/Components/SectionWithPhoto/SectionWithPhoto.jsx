@@ -1,4 +1,5 @@
 import "./sectionWithPhoto.css";
+import { OrangeButtonLarge } from "../Buttons";
 
 const SectionWithPhoto = ({ title, data }) => {
   return (
@@ -22,6 +23,11 @@ const SectionWithPhoto = ({ title, data }) => {
               return <p className="p-text comp-text ">{item}</p>;
             })}
           </div>
+        </div>
+        <div className="kno-more-btnn-cont">
+          <a href="#9">
+            <OrangeButtonLarge text={"Book Free Counselling Session"} />
+          </a>
         </div>
       </div>
     </>

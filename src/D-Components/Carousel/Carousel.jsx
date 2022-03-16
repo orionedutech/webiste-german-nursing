@@ -6,10 +6,11 @@ import { Carousel } from "react-responsive-carousel";
 export const CarouselA = () => {
   return (
     <>
-      <Carousel infiniteLoop>
+      <Carousel autoPlay infiniteLoop>
        <SubCompCarousel bgImg={'bg-home'} />
-       <SubCompCarousel1 bgImg={'bg-home1'} />
        <SubCompCarouselOpposite bgImg={'bg-home2'} />
+
+       <SubCompCarousel1 bgImg={'bg-home1'} />
       </Carousel>
     </>
   );

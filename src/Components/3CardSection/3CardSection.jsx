@@ -1,4 +1,5 @@
 import "./3CardSection.css";
+import { OrangeButtonLarge } from "../Buttons";
 
 const ThreeCardSection = ({ title, data }) => {
   console.log(data[0].title);
@@ -28,7 +29,13 @@ const ThreeCardSection = ({ title, data }) => {
             );
           })}
         </div>
+        <div className="kno-more-btnn-cont">
+          <a href="#9">
+            <OrangeButtonLarge text={"Book Free Counselling Session"} />
+          </a>
+        </div>
       </div>
+      
     </>
   );
 };

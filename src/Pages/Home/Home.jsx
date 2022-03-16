@@ -25,32 +25,32 @@ const Home = () => {
   return (
     <>
       <CarouselA />
+      <SectionWithPhoto
+        title={"About Nursing Program in Germany"}
+        data={dataAboutNursingProogram}
+      />
       <TextComponent
         title={"About Orion"}
         mode={"dark"}
         data={textdata}
         textTitle
       />
-      <SectionWithPhoto
-        title={"About Nursing Program in Germany"}
-        data={dataAboutNursingProogram}
-      />
-
-      <NumberStatsDisplay mode={"dark"} data={numbersData} />
-
       <ThreeCardSection title={"Eligibility"} data={programDetailsData} />
 
-      <OurOfferings title={"What We Offer"} data={whatWeOfferData} />
+      <OurOfferings title={"Program Benifits"} data={whatWeOfferData} />
       {/* <SingleCardWithIcons title={"What We Offer"} data={whatWeOfferData} /> */}
 
       <ProgramFeesAndStructure
         title={"Program Offering"}
         data={programFeesData}
       />
+      <NumberStatsDisplay mode={"dark"} data={numbersData} />
+
       {/* <TextCardWithList
         title={"Program Fees "}
         data1={programFeesData}
       /> */}
+
       <Form title={"Get in Touch"} />
     </>
   );
