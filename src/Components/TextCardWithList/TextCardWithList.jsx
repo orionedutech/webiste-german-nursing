@@ -41,7 +41,7 @@ const TextCardWithList = ({ title, data1, singleCard }) => {
           <div className="card-holder">
             {data1.map((item) => {
               return (
-                <div className="card-landscape wide-text-card">
+                <div className="card wide-text-card widie3card">
                   <h5 className="card-sub-title wc-title">{item.title}</h5>
                   <ul className="p-text">
                     {item.data.map((itemin) => {

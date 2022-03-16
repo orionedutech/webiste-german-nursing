@@ -3,6 +3,7 @@
     border-radius: 20px;
     padding: 3rem;
     box-sizing: border-box;
+    background-color: white;
   
   }
   .cont-sub-com-prof {
@@ -28,4 +29,7 @@
   
   .wc-title-singleCard{
       margin: 2rem 0 0.5rem 0
+  }
+  .widie3card{
+    width: 22rem;
   }

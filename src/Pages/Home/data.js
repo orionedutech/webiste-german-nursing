@@ -90,6 +90,31 @@ export const programDetailsData = [
     ],
   },
 ];
+export const whatWeOfferData = [
+  
+  {
+    title: "What we offer",
+    data: [
+      {
+        title: "Salary",
+        data: ["€2,200 - €2,400 (INR 1.8 – 2 lac) per month"],
+      },
+      {
+        title: "Other Benifits",
+        data: [
+          "Additional shift pay of €240",
+          "After Professional Accreditation (Berufsanerkennung), candidates will receive bonus of around €1,500",
+          "Standard working hours (38-40 hours per week)",
+          "Paid annual leave of 28 days",
+          "Family Visa & Insurance Secured employment & social security",
+          "World’s Best Pension Scheme (post completion of 5 years of employment)",
+          "Lots of fun engagements - Christmas party, Gym subsidy, annual works outing",
+          "Can send atleast €600- €800 home per month (around INR 50k - 1 lakh)",
+        ],
+      },
+    ],
+  },
+];
 
 export const programFeesData = [
   {

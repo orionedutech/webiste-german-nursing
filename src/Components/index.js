@@ -23,6 +23,8 @@ import SectionWithPhoto from "./SectionWithPhoto/SectionWithPhoto";
 
 import ThreeCardSection from "./3CardSection/3CardSection";
 
+import SingleCardWithIcons from "./SingleCardWithIcons/SingleCardWithIcons";
+
 
 
 export { MobileNavbar, NavBar, Footer };
@@ -47,3 +49,5 @@ export {Form}
 export {SectionWithPhoto}
 
 export {ThreeCardSection}
+
+export {SingleCardWithIcons}
