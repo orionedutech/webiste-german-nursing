@@ -130,9 +130,17 @@ export const programFeesData = [
   // },
   {
     title: "Included",
+
+    
+    
+    
+    
+    
+    
+
     data: [
       {
-        title: "B1 &B2 Goethe Exams fees ",
+        title: "B1 & B2 Goethe Exams Fee included ",
         data: null,
       },
       {
@@ -142,7 +150,7 @@ export const programFeesData = [
       },
       {
         title:
-          "Preparation of Visa documents in India & work permit from Germany ",
+          "Visa documents in India & work permit from Germany",
         data: null,
       },
       {
@@ -151,11 +159,7 @@ export const programFeesData = [
       },
       {
         title:
-          "All Preparation including a specialist training is provided for recognition exams (after 12 months) ",
-        data: null,
-      },
-      {
-        title: "Visa Fees to be paid to German Consulate in India (€150)",
+          "Visa Fees for German Consulate in India ",
         data: null,
       },
       {
