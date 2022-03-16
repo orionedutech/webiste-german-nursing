@@ -10,7 +10,12 @@
   background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1647415444/orion-new-website/german-nursing-p/Banner_-_2_copy_2x_yegjp2.png");
   height: 95vh;
 }
+/* //carousel */
 .carousel.carousel-slider {
+  margin-bottom: -3rem;
+}
+
+.carousel-root {
   margin-bottom: -3rem;
 }
 
@@ -37,7 +42,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-.home-data-cont-left{
+.home-data-cont-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;

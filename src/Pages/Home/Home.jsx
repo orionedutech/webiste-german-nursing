@@ -2,14 +2,15 @@ import "./home.css";
 import {
   NumberStatsDisplay,
   TextComponent,
-  TextCardWithList,
+  // TextCardWithList,
   Form,
   SectionWithPhoto,
   ThreeCardSection,
-  SingleCardWithIcons,
 } from "../../Components";
 import {
   CarouselA,
+  OurOfferings,
+  ProgramFeesAndStructure,
 } from "../../D-Components";
 import {
   numbersData,
@@ -24,27 +25,32 @@ const Home = () => {
   return (
     <>
       <CarouselA />
-      <SectionWithPhoto
-        title={"About Nursing Program in Germany"}
-        data={dataAboutNursingProogram}
-      />
-
       <TextComponent
         title={"About Orion"}
         mode={"dark"}
         data={textdata}
         textTitle
       />
+      <SectionWithPhoto
+        title={"About Nursing Program in Germany"}
+        data={dataAboutNursingProogram}
+      />
+
       <NumberStatsDisplay mode={"dark"} data={numbersData} />
 
       <ThreeCardSection title={"Eligibility"} data={programDetailsData} />
 
-      <SingleCardWithIcons title={"What We Offer"} data={whatWeOfferData} />
+      <OurOfferings title={"What We Offer"} data={whatWeOfferData} />
+      {/* <SingleCardWithIcons title={"What We Offer"} data={whatWeOfferData} /> */}
 
-      <TextCardWithList
-        title={"Program Structure & Fees"}
-        data1={programFeesData}
+      <ProgramFeesAndStructure
+        title={"Program Offering"}
+        data={programFeesData}
       />
+      {/* <TextCardWithList
+        title={"Program Fees "}
+        data1={programFeesData}
+      /> */}
       <Form title={"Get in Touch"} />
     </>
   );

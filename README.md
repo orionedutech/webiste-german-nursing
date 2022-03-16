@@ -1,1 +1,1 @@
-This is the website of German Nursing  
+This is the website of Nursing Job (Germany)

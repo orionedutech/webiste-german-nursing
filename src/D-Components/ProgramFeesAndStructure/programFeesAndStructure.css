@@ -1,0 +1,21 @@
+.mini-text-card{
+    height: 15rem;
+    width: 16rem;
+    background-color: var(--primary-cl);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+.card-holder-program-offering{
+    /* background-color: red; */
+    /* margin-left:  10rem;
+    margin-right: 10rem; */
+}

@@ -49,9 +49,9 @@ const TextCardWithList = ({ title, data1, singleCard }) => {
                         <>
                           <li>{itemin.title}</li>
                           {itemin.data && (
-                            <ul className="innerUlList">
+                            <ul className="innerUlList ">
                               {itemin.data.map((a) => {
-                                return <li>{a}</li>;
+                                return <li className="only-card" ></li>;
                               })}
                             </ul>
                           )}

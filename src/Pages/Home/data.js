@@ -33,12 +33,10 @@ export const textdata = [
   "'With Orion's rapid growth and extensive geographical spread, we identified an urgent need to transition from traditional classroom training to technology-enabled education and growth of our past and present students, and staffing payroll.'",
   "'This led to the digital transformation and growth of Orion to train and upskill them across core and soft skills. At Orion, we are charging towards forging the next generation of nation-builders for India.'",
 ];
-export const textdata2 = [
-  "The Orion German Nursing Program is an incredible opportunity for 4 year BSc / GNW / MSc educated individuals looking to build a nursing career in Germany.", 
-"This program supports and trains eligible candidates in B1 and B2 Goethe Exams as well as trains them in German culture and other immersions for an easier career start in Germany.", 
-"All successful candidates will be able to build successful nursing careers in Germany with top salary, benefits including social security, insurance and more.", 
-"If you are interested candidate, fill the form on this micro site and our counsellors will get back to you with complete details.",
-"Come, build an incredible nursing career in Germany."
+export const dataAboutNursingProogram = [
+  "Orion Edutech presents an incredible opportunity for nurses to build a nursing career in Germany. If you are a graduate of 4 year BSc / GNW / MSc, you are invited to apply for nursing jobs in Germany with great pay and benefits.",
+"Through our superior process and system, you will receive end to end support as a successful candidate right from training in German language and German culture to highly relevant immersion to make smooth transition for a great nursing career in Germany.",
+"If you are an eligible candidate and interested to a great career in Germany, you need to fill the form on this page and our counsellors will guide you to the process forward.Come and find incredible nursing jobs in Germany."
 ];
 
 export const programDetailsData = [
@@ -117,19 +115,19 @@ export const whatWeOfferData = [
 ];
 
 export const programFeesData = [
-  {
-    title: "Program Cost",
-    data: [
-      {
-        title: "Program fees of €3,000 (Rs.2.5 lakhs) + GST ",
-        data: null,
-      },
-      {
-        title: "Additional as applicable on program fees (Approx. Rs 45,000)",
-        data: null,
-      },
-    ],
-  },
+  // {
+  //   title: "Program Cost",
+  //   data: [
+  //     {
+  //       title: "Program fees of €3,000 (Rs.2.5 lakhs) + GST ",
+  //       data: null,
+  //     },
+  //     {
+  //       title: "Additional as applicable on program fees (Approx. Rs 45,000)",
+  //       data: null,
+  //     },
+  //   ],
+  // },
   {
     title: "Included",
     data: [
@@ -167,26 +165,26 @@ export const programFeesData = [
     ],
   },
 
-  {
-    title: "Not Included",
-    data: [
-      {
-        title: "Fees for Professional Accreditation (€150) ",
-        data: null,
-      },
-      {
-        title: "Translation of certificates & legal documents (€100)",
-        data: null,
-      },
-      {
-        title:
-          "Travel to Germany (approx. €500) (on a case-by-case basis, it may be borne by employer)",
-        data: null,
-      },
-    ],
-  },
+  // {
+  //   title: "Not Included",
+  //   data: [
+  //     {
+  //       title: "Fees for Professional Accreditation (€150) ",
+  //       data: null,
+  //     },
+  //     {
+  //       title: "Translation of certificates & legal documents (€100)",
+  //       data: null,
+  //     },
+  //     {
+  //       title:
+  //         "Travel to Germany (approx. €500) (on a case-by-case basis, it may be borne by employer)",
+  //       data: null,
+  //     },
+  //   ],
+  // },
 ];
 
-export const dataAboutNursingProogram = [
-  "The Orion German Nursing Program is an incredible opportunity for 4 year BSc / GNW / MSc educated individuals looking to build a nursing career in Germany.",  "This program supports and trains eligible candidates in B1 and B2 Goethe Exams as well as trains them in German culture and other immersions for an easier career start in Germany.", "All successful candidates will be able to build successful nursing careers in Germany with top salary, benefits including social security, insurance and more.", "If you are interested candidate, fill the form on this micro site and our counsellors will get back to you with complete details. Come, build an incredible nursing career in Germany."
-]
+// export const dataAboutNursingProogram = [
+//   "The Orion German Nursing Program is an incredible opportunity for 4 year BSc / GNW / MSc educated individuals looking to build a nursing career in Germany.",  "This program supports and trains eligible candidates in B1 and B2 Goethe Exams as well as trains them in German culture and other immersions for an easier career start in Germany.", "All successful candidates will be able to build successful nursing careers in Germany with top salary, benefits including social security, insurance and more.", "If you are interested candidate, fill the form on this micro site and our counsellors will get back to you with complete details. Come, build an incredible nursing career in Germany."
+// ]

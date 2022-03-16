@@ -1,0 +1,22 @@
+.offer-card{
+    background-color: white;
+    width: 16rem;
+    height: 15rem;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.offer-card-img{
+    width: 6.5rem;
+}
+.offer-card-title{
+    margin-top: 1.5rem;
+}
+.cont-offer-img-card{
+    height: 7rem;
+    display: flex;
+}

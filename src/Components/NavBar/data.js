@@ -23,7 +23,7 @@ export const aboutUs = [
       wlink: "https://orionedutech.in/international-schooling",
     },
     {
-      title: "German Nursing Program",
+      title: "Nursing Job (Germany)",
       link: "/",
     },
   ];
