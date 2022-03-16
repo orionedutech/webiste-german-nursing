@@ -3,7 +3,7 @@ import "./textCardWithList.css";
 const TextCardWithList = ({ title, data1, singleCard }) => {
   return (
     <>
-      <div className="section-container bg-gray-lite">
+      <div className="section-container bg-white">
         <div className="section-title-cont">
           <hr className="section-title-line" />
           <h3 className="section-title">{title}</h3>

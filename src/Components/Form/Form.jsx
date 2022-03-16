@@ -35,7 +35,7 @@ const Form = ({ title, page }) => {
   };
 
   return (
-    <div className="section-container" id="9">
+    <div className="section-container bg-gray-lite" id="9">
       <div className="section-title-cont">
         <hr className="section-title-line" />
         <h3 className="section-title ">{title}</h3>

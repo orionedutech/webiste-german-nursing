@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./singleCardWithIcons.css";
 
 const iconsData = [
@@ -56,11 +57,7 @@ const SingleCardWithIcons = ({ title, data }) => {
               {iconsData.map((item) => {
                 return (
                   <div className="div-icon ">
-                    <img
-                      className="gray-icons"
-                      src={item.icon}
-                      alt=""
-                    />
+                    <img className="gray-icons" src={item.icon} alt="" />
                     <p>{item.text}</p>
                   </div>
                 );

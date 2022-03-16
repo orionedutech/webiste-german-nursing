@@ -1,3 +1,4 @@
 import ProgramFeesAndStructure from "./ProgramFeesAndStructure/ProgramFeesAndStructure";
+import {CarouselA, SubCompCarousel} from "./Carousel/Carousel";
 
-export {ProgramFeesAndStructure}
+export {ProgramFeesAndStructure, CarouselA, SubCompCarousel}

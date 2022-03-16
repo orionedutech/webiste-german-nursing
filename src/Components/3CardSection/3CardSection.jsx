@@ -4,7 +4,7 @@ const ThreeCardSection = ({ title, data }) => {
   console.log(data[0].title);
   return (
     <>
-      <div className="section-container">
+      <div className="section-container bg-white">
         <div className="section-title-cont">
           <hr className="section-title-line" />
           <h3 className="section-title">{title}</h3>

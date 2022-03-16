@@ -127,7 +127,7 @@ const Footer = () => {
               href="/"
             >
               {" "}
-              <p>German Nursing</p>
+              <p>German Nursing Program</p>
             </a>
           </div>
           <div className="sub-content-box">
