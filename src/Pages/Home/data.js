@@ -73,7 +73,7 @@ export const programDetailsData = [
         data: ["€2,200 - €2,400 (INR 1.8 – 2 lac) per month"],
       },
       {
-        title: "Other Benifits",
+        title: "Other Benefits",
         data: [
           "Additional shift pay of €240",
           "After Professional Accreditation (Berufsanerkennung), candidates will receive bonus of around €1,500",
@@ -98,7 +98,7 @@ export const whatWeOfferData = [
         data: ["€2,200 - €2,400 (INR 1.8 – 2 lac) per month"],
       },
       {
-        title: "Other Benifits",
+        title: "Other Benefits",
         data: [
           "Additional shift pay of €240",
           "After Professional Accreditation (Berufsanerkennung), candidates will receive bonus of around €1,500",

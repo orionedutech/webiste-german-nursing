@@ -37,7 +37,7 @@ const Home = () => {
       />
       <ThreeCardSection title={"Eligibility"} data={programDetailsData} />
 
-      <OurOfferings title={"Program Benifits"} data={whatWeOfferData} />
+      <OurOfferings title={"Program Benefits"} data={whatWeOfferData} />
       {/* <SingleCardWithIcons title={"What We Offer"} data={whatWeOfferData} /> */}
 
       <ProgramFeesAndStructure
