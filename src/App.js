@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Home } from "./Pages";
 import { Footer, NavBar, MobileNavbar } from "./Components";
 import { Route, Routes, useLocation } from "react-router-dom";
+import ThankyouPage from "./Pages/ThankyouPage/ThankyouPage";
 
 function App() {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
@@ -37,6 +38,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/thankyou" element={<ThankyouPage />} />
       </Routes>
       <Footer/>
     </div>

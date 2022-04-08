@@ -39,3 +39,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.center{
+  text-align: center;
+  padding: 1rem;
+  color: red;
+  font-size: 1.2rem;
+}

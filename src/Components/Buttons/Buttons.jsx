@@ -1,9 +1,9 @@
 import "./Button.css"
 import {useState} from 'react'
 
-export const OrangeButton = ({ text, clickFunc, login }) => {
+export const OrangeButton = ({ text, clickFunc, login, disabled }) => {
     return (
-        <button className={login ? "button orange login-btn" : "button orange"} onClick={clickFunc}>
+        <button className={login ? "button orange login-btn" : "button orange"} onClick={clickFunc} disabled={disabled} >
             {text}
         </button>
     )
