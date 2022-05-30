@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { Home } from "./Pages";
+import { FAQPage, Home } from "./Pages";
 import { Footer, NavBar, MobileNavbar } from "./Components";
 import { Route, Routes, useLocation } from "react-router-dom";
 import ThankyouPage from "./Pages/ThankyouPage/ThankyouPage";
@@ -39,6 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/thankyou" element={<ThankyouPage />} />
+        <Route path="/faq" element={<FAQPage />} />
       </Routes>
       <Footer/>
     </div>

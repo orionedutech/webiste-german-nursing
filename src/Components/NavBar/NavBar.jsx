@@ -115,6 +115,9 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           <li className="nav-item tab-hide">
             <Link to="/contact-us">Contact Us</Link>
           </li>
+          <li className="nav-item tab-hide">
+            <Link to="/faq">FAQ</Link>
+          </li>
           <a
             target="_blank"
             rel="noreferrer"

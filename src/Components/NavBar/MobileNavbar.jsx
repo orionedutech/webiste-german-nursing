@@ -104,6 +104,9 @@ import {aboutUs, ourPrograms, ourServices} from './data'
           <li onClick={handleMobileMenuActive} className="nav-item-m">
             <Link to="/contact-us">Contact Us</Link>
           </li>
+          <li onClick={handleMobileMenuActive} className="nav-item-m">
+            <Link to="/faq">FAQ</Link>
+          </li>
           <a
             className="nav-item-m"
             target="_blank"

@@ -1,3 +1,4 @@
-import Home from "./Home/Home"
+import Home from "./Home/Home";
+import FAQPage from "./FAQ/FAQ";
 
-export {Home}
+export {Home, FAQPage}
