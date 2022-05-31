@@ -8,6 +8,10 @@ export const aboutUs = [
       title: "Awards & Recognition",
       wlink: "https://orionedutech.in/about-us/awards-and-recognition",
     },
+    {
+      title: "Blog",
+      wlink: "https://blog.orionedutech.com",
+    },
   ];
   export const ourPrograms = [
     {

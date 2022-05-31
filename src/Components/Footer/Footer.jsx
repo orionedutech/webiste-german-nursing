@@ -94,6 +94,13 @@ const Footer = () => {
               {" "}
               <p>Award & Recognition</p>
             </a>
+            <a
+              rel="noreferrer"
+              href="https://blog.orionedutech.com"
+            >
+              {" "}
+              <p>Blog</p>
+            </a>
           </div>
           
           
@@ -148,6 +155,10 @@ const Footer = () => {
               {" "}
               <p>Student Testimonials</p>
             </a>
+            <p>
+              {" "}
+              <Link to="/faq"> FAQ </Link> {" "}
+            </p>
           </div>
         </div>
         <div className="footer-box box-4">
