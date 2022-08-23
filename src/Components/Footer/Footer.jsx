@@ -70,14 +70,14 @@ const Footer = () => {
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.com/content-development"
+              href="https://www.orionedutech.com/content-development"
             >
               {" "}
               <p>Content Development</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.com/international-business"
+              href="https://www.orionedutech.com/international-business"
             >
               {" "}
               <p>International Business</p>
@@ -160,7 +160,7 @@ const Footer = () => {
               href="https://www.orionedutech.com/corporate-social-responsibility"
             >
               {" "}
-              <p>Corporate Social Responsibility</p>
+              <p>Corporate Sponsored Skilling</p>
             </a>
           </div>
           <div className="sub-content-box">
@@ -217,14 +217,14 @@ const Footer = () => {
           </div>
           <div className="flex2">
             <p>
-              <Link to="/terms-and-conditions"> Terms & Conditions </Link> |{" "}
+              <a href="https://www.orionedutech.com/terms-and-conditions"> Terms & Conditions </a> |{" "}
             </p>
             <p>
               {" "}
-              <Link to="/refund-policy"> Refund Policy </Link> |{" "}
+              <a href="https://www.orionedutech.com/refund-policy"> Refund Policy </a> |{" "}
             </p>
             <p>
-              <Link to="/privacy-policy">Privacy Policy</Link> |{" "}
+              <a href="https://www.orionedutech.com/privacy-policy">Privacy Policy</a> |{" "}
             </p>
             <p>Sitemap </p>
           </div>

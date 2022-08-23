@@ -41,7 +41,7 @@ import {aboutUs, ourPrograms, ourServices} from './data'
       <div className="mobile-nav-items">
         <ul className="mobile-nav-items-list">
           <li onClick={handleMobileMenuActive} className="nav-item-m">
-            <Link to="/">Home</Link>
+            <a href="https://www.orionedutech.com/">Home</a>
           </li>
 
           <li

@@ -39,18 +39,18 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
   return (
     <nav>
       <div className="nav-logo-cont">
-        <Link to="/">
+        <a href="https://www.orionedutech.com/">
           <img
             className="nav-cont"
             src="https://res.cloudinary.com/learnhat/image/upload/v1641191551/orion-new-website/logo_new_main_q47dby.jpg"
             alt="orion-logo"
           />
-        </Link>
+        </a>
       </div>
       <div className="nav-items-cont">
         <ul className="nav-items-list">
           <li className="nav-item tab-hide">
-            <Link to="/">Home</Link>
+            <a href="https://www.orionedutech.com/">Home</a>
           </li>
           <li
             className="nav-item tab-hide"
