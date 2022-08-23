@@ -57,24 +57,27 @@ const Footer = () => {
         <div className="footer-box box-2">
         <div className="sub-content-box">
             <h5>Our Services</h5>
-            <Link to="/">
+            <a
+              rel="noreferrer"
+              href="https://staffing.orionedutech.in/"
+            >
               {" "}
               <p>Staffing - Corporate Alliance</p>
-            </Link>
-            <a rel="noreferrer" href="https://orionedutech.in/study-abroad">
+            </a>
+            <a rel="noreferrer" href="https://study-abroad.orionedutech.com/">
               {" "}
               <p>Study Abroad</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/content-development"
+              href="https://orionedutech.com/content-development"
             >
               {" "}
               <p>Content Development</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/international-business"
+              href="https://orionedutech.com/international-business"
             >
               {" "}
               <p>International Business</p>
@@ -83,13 +86,13 @@ const Footer = () => {
           
           <div className="sub-content-box">
             <h5>About Us</h5>
-            <a rel="noreferrer" href="https://orionedutech.in/about-us">
+            <a rel="noreferrer" href="https://www.orionedutech.com/about-us">
               {" "}
               <p>Company Profile</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/about-us/awards-and-recognition"
+              href="https://www.orionedutech.com/about-us/awards-and-recognition"
             >
               {" "}
               <p>Award & Recognition</p>
@@ -110,21 +113,21 @@ const Footer = () => {
             <h5>Our Programs</h5>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/skill-development"
+              href="https://www.orionedutech.com/skill-development"
             >
               {" "}
               <p>Skill Development</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/foreign-internship"
+              href="https://foreign-internship.orionedutech.com/"
             >
               {" "}
               <p>Foreign Internship</p>
             </a>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/international-schooling"
+              href="https://international-schooling.orionedutech.com/"
             >
               {" "}
               <p>International Schooling</p>
@@ -136,11 +139,25 @@ const Footer = () => {
               {" "}
               <p>Nursing Job (Germany)</p>
             </a>
+            <a
+              rel="noreferrer"
+              href="https://manav-rachna.orionedutech.com/"
+            >
+              {" "}
+              <p>University Programs - Manav Rachna</p>
+            </a>
+            <a
+              rel="noreferrer"
+              href="https://rayat-bahra.orionedutech.com/"
+            >
+              {" "}
+              <p>University Programs - Rayat Bahra</p>
+            </a>
           </div>
           <div className="sub-content-box">
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/corporate-social-responsibility"
+              href="https://www.orionedutech.com/corporate-social-responsibility"
             >
               {" "}
               <p>Corporate Social Responsibility</p>
@@ -150,10 +167,17 @@ const Footer = () => {
             <h5>Other Links</h5>
             <a
               rel="noreferrer"
-              href="https://orionedutech.in/students-testimonials"
+              href="https://www.orionedutech.com/students-testimonials"
             >
               {" "}
               <p>Student Testimonials</p>
+            </a>
+            <a
+              rel="noreferrer"
+              href="https://www.orionedutech.com/feedback"
+            >
+              {" "}
+              <p>Feedback</p>
             </a>
             <p>
               {" "}
@@ -164,11 +188,8 @@ const Footer = () => {
         <div className="footer-box box-4">
           <div className="sub-content-box">
             <h5>Corporate Office</h5>
-            <p>
-              Orion House, 28, Rajarhat Main Road,
-              <br /> Chinar Park, Kolkata, <br />
-              West Bengal - 700157{" "}
-            </p>
+            <p>Mani Casadona, <br/>Office No-5ES5,5th Floor,East Tower,<br/> Newtown, Kolkata. PIN: 700156,  <br/>Opposite of Ecospace Building <br/>PS: Technocity, PO: Karigori Bhavan, Newtown </p>
+            {" "}
           </div>
           <div className="sub-content-box">
             <h5>Email</h5>

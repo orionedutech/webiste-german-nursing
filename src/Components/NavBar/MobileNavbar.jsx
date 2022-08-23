@@ -97,13 +97,21 @@ import {aboutUs, ourPrograms, ourServices} from './data'
             data={ourPrograms}
             handleMobileMenuActive={handleMobileMenuActive}
           />
+
+          {/* 
           <li onClick={handleMobileMenuActive} className="nav-item-m">
             <a 
               rel="noreferrer" href="https://orionedutech.in/corporate-social-responsibility">CSR</a>
-          </li>
+            </li> */} 
+
+          {/* 
           <li onClick={handleMobileMenuActive} className="nav-item-m">
             <Link to="/contact-us">Contact Us</Link>
+          </li> */} 
+          <li className="nav-item tab-hide">
+            <a href="https://contact.orionedutech.com">Contact Us</a> 
           </li>
+
           <li onClick={handleMobileMenuActive} className="nav-item-m">
             <Link to="/faq">FAQ</Link>
           </li>
@@ -142,7 +150,7 @@ const SubMenu = ({
             onClick={handleMobileMenuActive}
             rel="noreferrer"
             href={item.wlink}
-            className="mob-sub-menu-item"
+            className={item.title=="University Programs" ? "mob-sub-menu-item-bold" : "mob-sub-menu-item"}
           >
             {item.title}
           </a>
@@ -150,7 +158,7 @@ const SubMenu = ({
           <Link key={item.wlink}
             onClick={handleMobileMenuActive}
             to={item.link}
-            className="mob-sub-menu-item"
+            className={item.title=="University Programs" ? "mob-sub-menu-item-bold" : "mob-sub-menu-item"}
           >
             {item.title}
           </Link>

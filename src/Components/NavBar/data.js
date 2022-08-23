@@ -2,11 +2,11 @@
 export const aboutUs = [
     {
       title: "Company Profile",
-      wlink: "https://orionedutech.in/about-us",
+      wlink: "https://www.orionedutech.com/about-us",
     },
     {
       title: "Awards & Recognition",
-      wlink: "https://orionedutech.in/about-us/awards-and-recognition",
+      wlink: "https://www.orionedutech.com/about-us/awards-and-recognition",
     },
     {
       title: "Blog",
@@ -16,19 +16,37 @@ export const aboutUs = [
   export const ourPrograms = [
     {
       title: "Skill Development",
-      wlink: "https://orionedutech.in/skill-development",
+      wlink: "https://www.orionedutech.com/skill-development",
+    },
+    {
+    title: "Corporate Sponsored Skilling",
+    wlink: "https://www.orionedutech.com/corporate-social-responsibility",
     },
     {
       title: "Foreign Internship (TITP)",
-      wlink: "https://orionedutech.in/foreign-internship",
+      /* link: "/foreign-internship", */ 
+      wlink: "https://foreign-internship.orionedutech.com", 
     },
     {
       title: "International Schooling",
-      wlink: "https://orionedutech.in/international-schooling",
+      /* link: "/international-schooling", */ 
+      wlink: "https://international-schooling.orionedutech.com", 
     },
     {
       title: "Nursing Job (Germany)",
       link: "/",
+    },
+    {
+      title: "University Programs",
+      wlink: "https://manav-rachna.orionedutech.com",
+    },
+    {
+      title: "- Manav Rachna",
+      wlink: "https://manav-rachna.orionedutech.com",
+    },
+    {
+      title: "- Rayat Bahra",
+      wlink: "https://rayat-bahra.orionedutech.com",
     },
   ];
   export const ourServices = [
@@ -38,15 +56,16 @@ export const aboutUs = [
     },
     {
       title: "Study Abroad",
-      wlink: "https://orionedutech.in/study-abroad",
+      /*link: "/study-abroad" */
+      wlink: "https://study-abroad.orionedutech.com"
     },
     {
       title: "Content Development",
-      wlink: "https://orionedutech.in/content-development",
+      wlink: "https://www.orionedutech.com/content-development",
     },
     {
       title: "International Businesses",
-      wlink: "https://orionedutech.in/international-business",
+      wlink: "https://www.orionedutech.com/international-business",
     },
   ];
   

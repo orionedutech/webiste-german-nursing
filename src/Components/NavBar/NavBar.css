@@ -95,3 +95,8 @@ nav{
     margin:  5px 13px;
     
 }
+.sub-menu-item-bold{
+    padding: 5px;
+    margin:  5px 13px;
+    font-weight: bold;
+}

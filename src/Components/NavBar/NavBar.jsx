@@ -103,18 +103,26 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <SubMenu
               subMenuDisplay={ourProgramsSubMenuDisplay}
               handleReset={handleReset}
-              left={"55%"}
+              left={"56%"}
               data={ourPrograms}
             />
           </li>
+
+          {/*
           <li className="nav-item">
             <a 
               rel="noreferrer" href="https://orionedutech.in/corporate-social-responsibility">CSR</a>
-          </li>
+          </li> */}
           
+          {/*
           <li className="nav-item tab-hide">
             <Link to="/contact-us">Contact Us</Link>
+        </li> */} 
+
+          <li className="nav-item tab-hide">
+            <a href="https://contact.orionedutech.com">Contact Us</a> 
           </li>
+
           <li className="nav-item tab-hide">
             <Link to="/faq">FAQ</Link>
           </li>
@@ -125,6 +133,16 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Download App" login />
           </a>
+
+          {/* 
+          <a
+            // target="_blank"
+            rel="noreferrer"
+            href="https://pay.orionedutech.com/"
+          >
+            <OrangeButton text="Pay Now" login />
+          </a> */}
+
         </ul>
       </div>
       <button className="menu-btn" onClick={handleMobileMenuActive}>
@@ -144,8 +162,8 @@ const SubMenu = ({ subMenuDisplay, handleReset, left, data }) => {
       onMouseLeave={handleReset}
     >
       {data.map((item) => {
-        return item.wlink ? ( <a rel="noreferrer" href={item.wlink} className="sub-menu-item" >{item.title}</a> ) : (
-          <Link to={item.link} className="sub-menu-item">
+        return item.wlink ? ( <a rel="noreferrer" href={item.wlink} className={item.title=="University Programs" ? "sub-menu-item-bold" : "sub-menu-item"} >{item.title}</a> ) : (
+          <Link to={item.link} className={item.title=="University Programs" ? "sub-menu-item-bold" : "sub-menu-item"}>
             {item.title}
           </Link>
         );
