@@ -123,6 +123,15 @@ import {aboutUs, ourPrograms, ourServices} from './data'
           >
             <OrangeButton text="Download App" />
           </a>
+
+          <a
+            className="nav-item-m"
+            //target="_blank"
+            rel="noreferrer"
+            href="https://orionedutechfiles.s3.ap-south-1.amazonaws.com/fms/uploadImage/OrionEdutech_Sharod_Samman.docx"
+          >
+            <OrangeButton text="Sharod Samman" />
+          </a>
         </ul>
       </div>
     </div>

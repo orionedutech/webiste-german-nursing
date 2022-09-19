@@ -133,8 +133,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Download App" login />
           </a>
-
-          {/* 
+          {/*
           <a
             // target="_blank"
             rel="noreferrer"
@@ -142,6 +141,13 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Pay Now" login />
           </a> */}
+          <a
+            // target="_blank"
+            rel="noreferrer"
+            href="https://orionedutechfiles.s3.ap-south-1.amazonaws.com/fms/uploadImage/OrionEdutech_Sharod_Samman.docx"
+          >
+            <OrangeButton text="Sharod Samman" login />
+          </a>
 
         </ul>
       </div>
