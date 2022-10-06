@@ -141,6 +141,8 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Pay Now" login />
           </a> */}
+
+          {/* 
           <a
             // target="_blank"
             rel="noreferrer"
@@ -148,6 +150,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Sharod Samman" login />
           </a>
+          */}
 
         </ul>
       </div>
