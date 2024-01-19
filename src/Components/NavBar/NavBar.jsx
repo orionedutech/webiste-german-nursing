@@ -2,7 +2,7 @@ import "./NavBar.css";
 import {OrangeButton} from '../Buttons/Buttons'
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import {aboutUs, ourPrograms, ourServices} from './data'
+import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
 
 
 const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
@@ -10,6 +10,14 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
   const [ourProgramsSubMenuDisplay, setOurProgramsSubMenuDisplay] =
     useState(false);
   const [ourServicesSubMenuDisplay, setOurServicesSubMenuDisplay] =
+    useState(false);
+  const [univProgramsSubMenuDisplay, setUnivProgramsSubMenuDisplay] =
+    useState(false);
+  const [studyAbroadSubMenuDisplay, setStudyAbroadSubMenuDisplay] =
+    useState(false);
+  const [nursingSubMenuDisplay, setNursingSubMenuDisplay] =
+    useState(false);
+  const [finternSubMenuDisplay, setFinternSubMenuDisplay] =
     useState(false);
 
   const handleChangeAboutUs = () => {
@@ -21,11 +29,27 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
   const handleChangeOurPrograms = () => {
     setOurProgramsSubMenuDisplay(!ourProgramsSubMenuDisplay);
   };
+  const handleChangeStudyAbroad = () => {
+    setStudyAbroadSubMenuDisplay(!studyAbroadSubMenuDisplay);
+  };
+  const handleChangeUnivPrograms = () => {
+    setUnivProgramsSubMenuDisplay(!univProgramsSubMenuDisplay);
+  };
+  const handleChangeNursing = () => {
+    setNursingSubMenuDisplay(!nursingSubMenuDisplay);
+  };
+  const handleChangeFintern = () => {
+    setFinternSubMenuDisplay(!finternSubMenuDisplay);
+  };
 
   const handleReset = () => {
     setAboutUsSubMenuDisplay(false);
     setOurProgramsSubMenuDisplay(false);
     setOurServicesSubMenuDisplay(false);
+    setUnivProgramsSubMenuDisplay(false);
+    setStudyAbroadSubMenuDisplay(false);
+    setNursingSubMenuDisplay(false);
+    setFinternSubMenuDisplay(false);
   };
 
   const { pathname } = useLocation();
@@ -65,22 +89,18 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <SubMenu
               subMenuDisplay={aboutUsSubMenuDisplay}
               handleReset={handleReset}
-              left={"40%"}
+              left={"42%"}
               data={aboutUs}
             />
           </li>
+
+          {/*
           <li
             className="nav-item"
             onMouseOver={handleChangeOurServices}
             onMouseOut={handleChangeOurServices}
           >
-            {/* <a
-              target="_blank"
-              rel="noreferrer"
-              href="http://www.orioncorporate.com/"
-            > */}
             Our Services
-            {/* </a> */}
             <SubMenu
               subMenuDisplay={ourServicesSubMenuDisplay}
               handleReset={handleReset}
@@ -88,23 +108,49 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
               data={ourServices}
             />
           </li>
+          */}
+
           <li
             className="nav-item"
             onMouseOver={handleChangeOurPrograms}
             onMouseOut={handleChangeOurPrograms}
           >
-            {/* <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.orionedutech.com/govt_project.php"
-            > */}
-            Our Programs
-            {/* </a> */}
-            <SubMenu
+            Our Services
+            <ProgSubMenu
               subMenuDisplay={ourProgramsSubMenuDisplay}
               handleReset={handleReset}
-              left={"56%"}
+              left={"52%"}
               data={ourPrograms}
+              univsubMenuDisplay={univProgramsSubMenuDisplay}
+              univHandleChange={handleChangeUnivPrograms}
+              univhandleReset={handleReset}
+              univleft={"100%"}
+              nursingsubMenuDisplay={nursingSubMenuDisplay}
+              nursingHandleChange={handleChangeNursing}
+              nursinghandleReset={handleReset}
+              nursingleft={"100%"}
+              finternsubMenuDisplay={finternSubMenuDisplay}
+              finternHandleChange={handleChangeFintern}
+              finternhandleReset={handleReset}
+              finternleft={"100%"}
+            />
+          </li>
+
+          <li
+            className="nav-item"
+            onMouseOver={handleChangeStudyAbroad}
+            onMouseOut={handleChangeStudyAbroad}
+          >
+            Study Abroad
+            <StudyAbroadSubMenu
+              subMenuDisplay={studyAbroadSubMenuDisplay}
+              handleReset={handleReset}
+              left={"62%"}
+              data={studyAbroad}
+              nursingsubMenuDisplay={nursingSubMenuDisplay}
+              nursingHandleChange={handleChangeNursing}
+              nursinghandleReset={handleReset}
+              nursingleft={"100%"}
             />
           </li>
 
@@ -123,9 +169,12 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <a href="https://contact.orionedutech.com">Contact Us</a> 
           </li>
 
+          {/*
           <li className="nav-item tab-hide">
             <Link to="/faq">FAQ</Link>
           </li>
+          */}
+
           <a
             target="_blank"
             rel="noreferrer"
@@ -180,3 +229,142 @@ const SubMenu = ({ subMenuDisplay, handleReset, left, data }) => {
     </div>
   );
 };
+
+const ProgSubMenu = ({ subMenuDisplay, handleReset, left, data, univsubMenuDisplay, univHandleChange, univhandleReset, univleft,
+                      nursingsubMenuDisplay, nursingHandleChange, nursinghandleReset, nursingleft, 
+                      finternsubMenuDisplay, finternHandleChange, finternhandleReset, finternleft}) => {
+  return (
+    <div
+      className={`sub-menu ${subMenuDisplay ? "active" : null}`}
+      style={{ position: "absolute", left: left }}
+      onMouseLeave={handleReset}
+    >
+      {data.map((item) => {
+        return item.submenutitle=="Foreign Internship" ? (
+          <li
+              className={"nested-sub-menu-item"}
+              onMouseOver={finternHandleChange}
+              onMouseOut={finternHandleChange}
+              >
+              <Link to={item.link} className={"sub-menu-item-bold"}>
+                {item.submenutitle}
+              </Link>
+              <div 
+              className={`nested-sub-menu ${finternsubMenuDisplay ? "active" : null}`}
+              style={{ position: "absolute", left: finternleft }}
+              onMouseLeave={finternhandleReset}
+              >
+              {item.submenuitems.map((sitem) => {
+                return (<a rel="noreferrer" href={sitem.wlink} className={"sub-menu-item"}>
+                  {sitem.title}
+                </a>)
+              })}
+              </div>
+          </li>
+            ) :
+
+        item.submenutitle=="Nursing Jobs Abroad" ? (
+          <li
+              className={"nested-sub-menu-item"}
+              onMouseOver={nursingHandleChange}
+              onMouseOut={nursingHandleChange}
+              >
+              <Link to={item.link} className={"sub-menu-item-bold"}>
+                {item.submenutitle}
+              </Link>
+              <div 
+              className={`nested-sub-menu ${nursingsubMenuDisplay ? "active" : null}`}
+              style={{ position: "absolute", left: nursingleft }}
+              onMouseLeave={nursinghandleReset}
+              >
+              {item.submenuitems.map((sitem) => {
+                return (<a rel="noreferrer" href={sitem.wlink} className={"sub-menu-item"}>
+                  {sitem.title}
+                </a>)
+              })}
+              </div>
+          </li>
+            ) :
+        
+        item.submenutitle=="University Programs" ? (
+          <li
+              className={"nested-sub-menu-item"}
+              onMouseOver={univHandleChange}
+              onMouseOut={univHandleChange}
+              >
+              <Link to={item.link} className={"sub-menu-item-bold"}>
+                {item.submenutitle}
+              </Link>
+              <div 
+              className={`nested-sub-menu ${univsubMenuDisplay ? "active" : null}`}
+              style={{ position: "absolute", left: univleft }}
+              onMouseLeave={univhandleReset}
+              >
+              {item.submenuitems.map((sitem) => {
+                return (<a rel="noreferrer" href={sitem.wlink} className={"sub-menu-item"}>
+                  {sitem.title}
+                </a>)
+              })}
+              </div>
+          </li>
+            ) : 
+        
+        item.wlink ? (
+          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"}>
+            {item.title}
+          </a>
+        ) : (
+          <Link to={item.link} className={"sub-menu-item"}>
+            {item.title}
+          </Link>
+        );
+      })}
+    </div>
+  );
+};
+
+const StudyAbroadSubMenu = ({ subMenuDisplay, handleReset, left, data, nursingsubMenuDisplay, nursingHandleChange, nursinghandleReset, nursingleft}) => {
+  return (
+    <div
+      className={`sub-menu ${subMenuDisplay ? "active" : null}`}
+      style={{ position: "absolute", left: left }}
+      onMouseLeave={handleReset}
+    >
+      {data.map((item) => {
+        return item.submenutitle ? (
+          <li
+              className={"nested-sub-menu-item"}
+              onMouseOver={nursingHandleChange}
+              onMouseOut={nursingHandleChange}
+              >
+              <Link to={item.link} className={"sub-menu-item-bold"}>
+                {item.submenutitle}
+              </Link>
+              <div
+              className={`nested-sub-menu ${nursingsubMenuDisplay ? "active" : null}`}
+              style={{ position: "absolute", left: nursingleft }}
+              onMouseLeave={nursinghandleReset}
+              >
+              {item.submenuitems.map((sitem) => {
+                return (<a rel="noreferrer" href={sitem.wlink} className={"sub-menu-item"}>
+                  {sitem.title}
+                </a>)
+              })}
+              </div>
+          </li>
+            ) : 
+        
+        item.wlink ? (
+          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"}>
+            {item.title}
+          </a>
+        ) : (
+          <Link to={item.link} className={"sub-menu-item"}>
+            {item.title}
+          </Link>
+        );
+      })}
+    </div>
+  );
+};
+

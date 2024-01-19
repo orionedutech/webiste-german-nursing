@@ -13,42 +13,101 @@ export const aboutUs = [
       wlink: "https://blog.orionedutech.com",
     },
   ];
-  export const ourPrograms = [
+
+export const studyAbroad = [
     {
-      title: "Skill Development",
-      wlink: "https://www.orionedutech.com/skill-development",
+      title: "Study Abroad",
+      /*link: "/study-abroad" */
+      wlink: "https://study-abroad.orionedutech.com"
     },
     {
-    title: "Corporate Sponsored Skilling",
-    wlink: "https://www.orionedutech.com/corporate-social-responsibility",
-    },
-    {
-      title: "Foreign Internship (TITP)",
-      /* link: "/foreign-internship", */ 
-      wlink: "https://foreign-internship.orionedutech.com", 
-    },
-    {
-      title: "International Schooling",
-      /* link: "/international-schooling", */ 
-      wlink: "https://international-schooling.orionedutech.com", 
-    },
-    {
-      title: "Nursing Job (Germany)",
-      link: "/",
-    },
-    {
-      title: "University Programs",
-      wlink: "https://manav-rachna.orionedutech.com",
-    },
-    {
-      title: "- Manav Rachna",
-      wlink: "https://manav-rachna.orionedutech.com",
-    },
-    {
-      title: "- Rayat Bahra",
-      wlink: "https://rayat-bahra.orionedutech.com",
+      submenutitle: "Nursing Jobs Abroad",
+      link: "",
+      submenuitems: [
+        {
+          title: "Germany",
+          wlink: "https://germannursing.orionedutech.in/",
+        },
+      ],
     },
   ];
+
+export  const ourPrograms = [
+    {
+      title: "Staffing - Corporate Alliance",
+      wlink: "https://staffing.orionedutech.in/",
+    },
+    {
+      title: "Content Development",
+      link: "/content-development",
+    },
+    {
+      title: "International Businesses",
+      link: "/international-business",
+    },
+    {
+      title: "Skill Development",
+      link: "/skill-development",
+    },
+    {
+      title: "Corporate Sponsored Skilling",
+      link: "/corporate-social-responsibility",
+    },
+    {
+      submenutitle: "Foreign Internship",
+      /* link: "/foreign-internship", */ 
+      link: "", 
+      submenuitems: [
+        {
+          title: "TITP",
+          wlink: "https://foreign-internship.orionedutech.com",
+        },
+        {
+          title: "SSW",
+          wlink: "https://skilled-worker.orionedutech.com/",
+        },
+      ],
+    },
+    /*
+    {
+      title: "International Schooling",
+      wlink: "https://international-schooling.orionedutech.com", 
+    },
+    */
+    {
+      submenutitle: "Nursing Jobs Abroad",
+      link: "",
+      submenuitems: [
+        {
+          title: "Germany",
+          wlink: "https://germannursing.orionedutech.in/",
+        },
+      ],
+    },
+    /*
+    {
+      title: "Specified Skilled Worker (SSW)",
+      wlink: "https://skilled-worker.orionedutech.com/",
+    },
+    */
+    {
+      submenutitle: "University Programs",
+      link: "",
+      submenuitems: [
+        {
+          title: "Manav Rachna",
+          wlink: "https://manav-rachna.orionedutech.com",
+        },
+        /*
+        {
+          title: "- Rayat Bahra",
+          wlink: "https://rayat-bahra.orionedutech.com",
+        }, 
+        */
+      ],
+    },
+  ];
+  
   export const ourServices = [
     {
       title: "Staffing - Corporate Alliance",
@@ -56,7 +115,6 @@ export const aboutUs = [
     },
     {
       title: "Study Abroad",
-      /*link: "/study-abroad" */
       wlink: "https://study-abroad.orionedutech.com"
     },
     {
