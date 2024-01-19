@@ -76,3 +76,8 @@
     margin:  5px 13px;
     font-weight: bold;
 }
+.nested-mob-sub-menu-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
