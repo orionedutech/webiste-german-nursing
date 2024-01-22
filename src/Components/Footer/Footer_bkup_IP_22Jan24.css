@@ -3,16 +3,11 @@
 }
 .footer-bar {
   background-color: var(--primary-cl);
-  color: white;
   display: flex;
   justify-content: space-between;
   margin: 0 5%;
   padding: 0.6rem;
   border-top: 1px solid gray;
-}
-.footer-bar-cont{
-  background-color: var(--primary-cl);
-  color: white;
 }
 .flex2 {
   display: flex;
@@ -50,22 +45,22 @@
   margin: 2rem 0;
 }
 .logo-skill-india{
-    width: 6rem;
-    padding: 0.5rem;
-    padding-left: 0;
-    object-fit: contain;
+  width: 6rem;
+  padding: 0.5rem;
+  padding-left: 0;
+  object-fit: contain;
 }
 .logo-nsdc{
-    width: 9rem;
-    padding: 1rem;
-    object-fit: contain;
+  width: 9rem;
+  padding: 1rem;
+  object-fit: contain;
 }
 .logo-pstore{
-  object-fit: contain;
-  width: 8rem;
+object-fit: contain;
+width: 8rem;
 }
 .logo-contn{
-  display: flex;
+display: flex;
 
 }
 .sub-content-box-icons{
@@ -83,18 +78,16 @@
     padding-left: 0 !important;
 }
 footer {
+  background-color: var(--primary-cl);
   display: flex;
   padding: 2rem 1rem 1.5rem 3rem;
   background-color: whitesmoke;
   height: 100%;
   border-top: 1px solid gray;
-  background-color: var(--primary-cl);
-  color: white !important;
 }
 
 .box-1 {
   width: 30%;
-  /* background-color: red; */
 }
 .box-2 {
   width: 23%;
@@ -115,11 +108,15 @@ footer {
 }
 .sub-content-box h5 {
   padding-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 550;
 }
 p a{
   text-decoration: none;
-  color:  white;
+  color: white;
+}
+.footer-address{
+  line-height: 1.5rem;
 }
 
 @media (max-width:1027px) {
