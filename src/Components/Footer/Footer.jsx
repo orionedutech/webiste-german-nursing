@@ -69,8 +69,9 @@ const Footer = () => {
         <div className="footer-box box-3">
           <div className="sub-content-box">
             <h5>Our Services</h5>
-            <a target="_blank" rel="noreferrer" href="https://staffing.orionedutech.in/"> <p>Staffing - Corporate Alliance</p></a>
-            <Link to="/content-development" > <p>Content Development</p></Link>
+            <a target="_blank" rel="noreferrer" href="https://www.orioncorporate.com/"> <p>Staffing - Corporate Alliance</p></a>
+            {/* <Link to="/content-development" > <p>Content Development</p></Link> */}
+            <a target="_blank" rel="noreferrer" href="https://www.orionsoftechcontentgrill.com/"> <p>Content Development</p></a>
             <Link to="/international-business" > <p>International Business</p></Link>
             <Link to="/skill-development"><p>Skill Development</p></Link>
             <Link to="/corporate-social-responsibility" ><p>Corporate Social Responsibility</p></Link>
@@ -102,7 +103,7 @@ const Footer = () => {
             <p>info@orionedutech.com</p>
           </div>
 
-
+          {/*
           <div className="logo-contn">
             <a target="_blank"
             rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.learnhath.OrionEdutech">
@@ -113,7 +114,7 @@ const Footer = () => {
             />
             </a>
           </div>
-
+          */}
         </div>
       </footer>
       <div className="footer-bar-cont">

@@ -89,7 +89,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <SubMenu
               subMenuDisplay={aboutUsSubMenuDisplay}
               handleReset={handleReset}
-              left={"42%"}
+              left={"44%"}
               data={aboutUs}
             />
           </li>
@@ -119,7 +119,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <ProgSubMenu
               subMenuDisplay={ourProgramsSubMenuDisplay}
               handleReset={handleReset}
-              left={"52%"}
+              left={"58%"}
               data={ourPrograms}
               univsubMenuDisplay={univProgramsSubMenuDisplay}
               univHandleChange={handleChangeUnivPrograms}
@@ -145,7 +145,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <StudyAbroadSubMenu
               subMenuDisplay={studyAbroadSubMenuDisplay}
               handleReset={handleReset}
-              left={"62%"}
+              left={"70%"}
               data={studyAbroad}
               nursingsubMenuDisplay={nursingSubMenuDisplay}
               nursingHandleChange={handleChangeNursing}
@@ -175,6 +175,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           </li>
           */}
 
+          {/*
           <a
             target="_blank"
             rel="noreferrer"
@@ -182,6 +183,8 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           >
             <OrangeButton text="Download App" login />
           </a>
+          */}
+
           {/*
           <a
             // target="_blank"
@@ -310,7 +313,7 @@ const ProgSubMenu = ({ subMenuDisplay, handleReset, left, data, univsubMenuDispl
             ) : 
         
         item.wlink ? (
-          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"}>
+          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"} target="_blank">
             {item.title}
           </a>
         ) : (
@@ -355,7 +358,7 @@ const StudyAbroadSubMenu = ({ subMenuDisplay, handleReset, left, data, nursingsu
             ) : 
         
         item.wlink ? (
-          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"}>
+          <a rel="noreferrer" href={item.wlink} className={"sub-menu-item"} target="_blank">
             {item.title}
           </a>
         ) : (

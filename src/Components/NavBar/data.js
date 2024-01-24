@@ -35,11 +35,13 @@ export const studyAbroad = [
 export  const ourPrograms = [
     {
       title: "Staffing - Corporate Alliance",
-      wlink: "https://staffing.orionedutech.in/",
+      /* wlink: "https://staffing.orionedutech.in/", */ 
+      wlink: "https://www.orioncorporate.com/",
     },
     {
       title: "Content Development",
-      link: "/content-development",
+      /* link: "/content-development", */ 
+      wlink: "https://www.orionsoftechcontentgrill.com/",
     },
     {
       title: "International Businesses",
