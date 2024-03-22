@@ -55,9 +55,11 @@ export  const ourPrograms = [
       title: "Corporate Sponsored Skilling",
       link: "/corporate-social-responsibility",
     },
+    
+    /*
     {
       submenutitle: "Foreign Internship",
-      /* link: "/foreign-internship", */ 
+      // link: "/foreign-internship", 
       link: "", 
       submenuitems: [
         {
@@ -70,6 +72,8 @@ export  const ourPrograms = [
         },
       ],
     },
+    */
+
     /*
     {
       title: "International Schooling",

@@ -76,9 +76,9 @@ const Footer = () => {
             <Link to="/skill-development"><p>Skill Development</p></Link>
             <Link to="/corporate-social-responsibility" ><p>Corporate Social Responsibility</p></Link>
             {/* <Link to="/foreign-internship"><p>Foreign Internship</p></Link> */}
-            <a target="_blank" rel="noreferrer" href="https://foreign-internship.orionedutech.com/"><p>Foreign Internship - TITP</p></a>
-            <a target="_blank" rel="noreferrer" href="https://skilled-worker.orionedutech.com/"><p>Foreign Internship - SSW</p></a>
-            {/*} <Link to="/international-schooling"><p>International Schooling</p></Link> */}
+            {/* <a target="_blank" rel="noreferrer" href="https://foreign-internship.orionedutech.com/"><p>Foreign Internship - TITP</p></a> */}
+            {/* <a target="_blank" rel="noreferrer" href="https://skilled-worker.orionedutech.com/"><p>Foreign Internship - SSW</p></a> */}
+            {/* <Link to="/international-schooling"><p>International Schooling</p></Link> */}
             {/*<a target="_blank" rel="noreferrer" href="https://international-schooling.orionedutech.com/"> <p>International Schooling</p> </a> */}
             <a target="_blank" rel="noreferrer" href="https://germannursing.orionedutech.in/"> <p>Nursing Jobs Abroad - Germany</p> </a>
             <a target="_blank" rel="noreferrer" href="https://manav-rachna.orionedutech.com/"> <p>University Programs - Manav Rachna</p> </a>
