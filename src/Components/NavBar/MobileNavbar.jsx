@@ -2,7 +2,7 @@ import {OrangeButton} from '../Buttons/Buttons'
 import "./MobileNavbar.css";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
+import {aboutUs, ourPrograms, ourServices, studyAbroad, centersCourses} from './data'
 
 
  const MobileNavbar = ({ mobileMenuActive, handleMobileMenuActive }) => {
@@ -19,6 +19,8 @@ import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
     useState(false);
   const [finternSubMenuDisplay, setFinternSubMenuDisplay] =
     useState(false);
+    const [centersCoursesSubMenuDisplay, setCentersCoursesSubMenuDisplay] =
+    useState(false); 
 
   const handleChangeAboutUs = () => {
     setAboutUsSubMenuDisplay(!aboutUsSubMenuDisplay);
@@ -26,6 +28,7 @@ import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
     setOurServicesSubMenuDisplay(false);
     setUnivProgramsSubMenuDisplay(false);
     setStudyAbroadSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
   };
   const handleChangeOurServices = () => {
     setOurServicesSubMenuDisplay(!ourServicesSubMenuDisplay);
@@ -33,18 +36,28 @@ import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
     setOurProgramsSubMenuDisplay(false);
     setUnivProgramsSubMenuDisplay(false);
     setStudyAbroadSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
   };
   const handleChangeOurPrograms = () => {
     setOurProgramsSubMenuDisplay(!ourProgramsSubMenuDisplay);
     setAboutUsSubMenuDisplay(false);
     setOurServicesSubMenuDisplay(false);
     setStudyAbroadSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
   };
   const handleChangeStudyAbroad = () => {
     setStudyAbroadSubMenuDisplay(!studyAbroadSubMenuDisplay);
     setOurProgramsSubMenuDisplay(false);
     setAboutUsSubMenuDisplay(false);
     setOurServicesSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
+  };
+  const handleChangeCentersCourses = () => {
+    setCentersCoursesSubMenuDisplay(!centersCoursesSubMenuDisplay);
+    setOurProgramsSubMenuDisplay(false);
+    setAboutUsSubMenuDisplay(false);
+    setOurServicesSubMenuDisplay(false);
+    setStudyAbroadSubMenuDisplay(false);
   };
 
   const handleChangeUnivPrograms = (event) => {
@@ -66,6 +79,7 @@ import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
     setOurServicesSubMenuDisplay(false);
     setUnivProgramsSubMenuDisplay(false);
     setStudyAbroadSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
   };
 
 
@@ -161,6 +175,24 @@ import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
             nursingsubMenuDisplay={nursingSubMenuDisplay}
             nursingHandleChange={handleChangeNursing}
             nursinghandleReset={handleReset}
+          />
+
+          <li
+            onClick={handleChangeCentersCourses}
+            className="nav-item-m nav-item-icon-cont"
+          >
+            Centers
+            {centersCoursesSubMenuDisplay ? (
+              <i class="fas fa-chevron-up"></i>
+            ) : (
+              <i class="fas fa-chevron-down"></i>
+            )}
+          </li>
+          <SubMenu
+            subMenuDisplay={centersCoursesSubMenuDisplay}
+            handleReset={handleReset}
+            data={centersCourses}
+            handleMobileMenuActive={handleMobileMenuActive}
           />
 
           {/* 

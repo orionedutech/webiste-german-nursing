@@ -32,6 +32,14 @@ export const studyAbroad = [
     },
   ];
 
+  export const centersCourses = [
+    {
+      title: "Locate Centres / Institutions",
+      /*link: "/study-abroad" */
+      wlink: "https://centres.orionedutech.com"
+    }
+  ];
+  
 export  const ourPrograms = [
     {
       title: "Staffing - Corporate Alliance",

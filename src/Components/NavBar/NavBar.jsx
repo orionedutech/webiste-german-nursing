@@ -2,7 +2,7 @@ import "./NavBar.css";
 import {OrangeButton} from '../Buttons/Buttons'
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import {aboutUs, ourPrograms, ourServices, studyAbroad} from './data'
+import {aboutUs, ourPrograms, ourServices, studyAbroad, centersCourses} from './data'
 
 
 const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
@@ -19,6 +19,8 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
     useState(false);
   const [finternSubMenuDisplay, setFinternSubMenuDisplay] =
     useState(false);
+  const [centersCoursesSubMenuDisplay, setCentersCoursesSubMenuDisplay] =
+    useState(false);  
 
   const handleChangeAboutUs = () => {
     setAboutUsSubMenuDisplay(!aboutUsSubMenuDisplay);
@@ -41,6 +43,9 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
   const handleChangeFintern = () => {
     setFinternSubMenuDisplay(!finternSubMenuDisplay);
   };
+  const handleChangeCentersCourses = () => {
+    setCentersCoursesSubMenuDisplay(!centersCoursesSubMenuDisplay);
+  };
 
   const handleReset = () => {
     setAboutUsSubMenuDisplay(false);
@@ -50,6 +55,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
     setStudyAbroadSubMenuDisplay(false);
     setNursingSubMenuDisplay(false);
     setFinternSubMenuDisplay(false);
+    setCentersCoursesSubMenuDisplay(false);
   };
 
   const { pathname } = useLocation();
@@ -119,7 +125,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <ProgSubMenu
               subMenuDisplay={ourProgramsSubMenuDisplay}
               handleReset={handleReset}
-              left={"58%"}
+              left={"54%"}
               data={ourPrograms}
               univsubMenuDisplay={univProgramsSubMenuDisplay}
               univHandleChange={handleChangeUnivPrograms}
@@ -145,12 +151,26 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
             <StudyAbroadSubMenu
               subMenuDisplay={studyAbroadSubMenuDisplay}
               handleReset={handleReset}
-              left={"70%"}
+              left={"63%"}
               data={studyAbroad}
               nursingsubMenuDisplay={nursingSubMenuDisplay}
               nursingHandleChange={handleChangeNursing}
               nursinghandleReset={handleReset}
               nursingleft={"100%"}
+            />
+          </li>
+
+          <li
+            className="nav-item"
+            onMouseOver={handleChangeCentersCourses}
+            onMouseOut={handleChangeCentersCourses}
+          >
+            Centers
+            <SubMenu
+              subMenuDisplay={centersCoursesSubMenuDisplay}
+              handleReset={handleReset}
+              left={"75%"}
+              data={centersCourses}
             />
           </li>
 
