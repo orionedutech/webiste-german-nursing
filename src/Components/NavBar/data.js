@@ -51,10 +51,10 @@ export  const ourPrograms = [
       /* link: "/content-development", */ 
       wlink: "https://www.orionsoftechcontentgrill.com/",
     },
-    {
+    /*{
       title: "International Businesses",
       link: "/international-business",
-    },
+    },*/
     {
       title: "Skill Development",
       link: "/skill-development",
@@ -104,22 +104,22 @@ export  const ourPrograms = [
       wlink: "https://skilled-worker.orionedutech.com/",
     },
     */
-    {
-      submenutitle: "University Programs",
-      link: "",
-      submenuitems: [
-        {
-          title: "Manav Rachna",
-          wlink: "https://manav-rachna.orionedutech.com",
-        },
-        /*
-        {
-          title: "- Rayat Bahra",
-          wlink: "https://rayat-bahra.orionedutech.com",
-        }, 
-        */
-      ],
-    },
+    // {
+    //   submenutitle: "University Programs",
+    //   link: "",
+    //   submenuitems: [
+    //     {
+    //       title: "Manav Rachna",
+    //       wlink: "https://manav-rachna.orionedutech.com",
+    //     },
+    //     /*
+    //     {
+    //       title: "- Rayat Bahra",
+    //       wlink: "https://rayat-bahra.orionedutech.com",
+    //     }, 
+    //     */
+    //   ],
+    // },
   ];
   
   export const ourServices = [
@@ -135,9 +135,9 @@ export  const ourPrograms = [
       title: "Content Development",
       wlink: "https://www.orionedutech.com/content-development",
     },
-    {
+    /*{
       title: "International Businesses",
       wlink: "https://www.orionedutech.com/international-business",
-    },
+    },*/
   ];
   
